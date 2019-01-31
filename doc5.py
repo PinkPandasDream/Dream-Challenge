@@ -122,4 +122,4 @@ train=pd.read_csv(path)
 train.drop(train.columns[0], axis=1, inplace=True)
 final=pd.concat([train, MolLog_df,df_MACCS,df_Morgan], join='outer')
 #print final
-#final.to_csv('update.csv') 
+#final.to_csv('features1_2.csv') 
