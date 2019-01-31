@@ -6,8 +6,8 @@ from pydpi.pydrug import getmol,Chem, kappa
 from pydpi.drug import fingerprint,getmol
 from rdkit.Chem.AtomPairs import Pairs
 
-path="C:\\Users\\Acer\\Desktop\\uminho\\2ano\\SIB\\dream\\nosso\\generated_training_df_sara.csv" # dataset path
-export_path_interaction="C:\\Users\\Acer\\Desktop\\uminho\\2ano\\SIB\\dream\\nosso\\features_interact.csv"
+path="training_df.csv" # dataset path
+export_path_interaction="features_interact.csv"
 
 ##############################################
 # FEATURES INTERACOA PROTEINA-MOLECULA
