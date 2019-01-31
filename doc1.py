@@ -43,7 +43,7 @@ def get_f1_f2(row):
         dic = {'smiles':row['smiles'], 'target_id':row['target_id']}
         target_id_errors.append(dic)
 
-    print row.name
+    print (row.name)
 
 
 df = pd.read_csv(path, header=0, skipinitialspace=True, usecols=column_names)#, nrows=15)
